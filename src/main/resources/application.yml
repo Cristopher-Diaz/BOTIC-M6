@@ -1,0 +1,5 @@
+security:
+  jwt:
+    token:
+      secret-key: my-very-strong-secret-key-32chars-long
+      expire-length: 3600000 # 1 hora en milisegundos
